@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.textBody{
+    margin-top: '2ß0px' 
+}
+
+.findtext{
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+.cities{
+    color: #61dafb;
+    font-family: "Playfair Display";
+    text-decoration: underline;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: flex-start; /* Left-align contents */
+    align-items: center; /* Center vertically */
+    margin-top: 150px;
+    margin-left: 20px;
+}

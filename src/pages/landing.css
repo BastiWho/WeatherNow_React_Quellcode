@@ -1,0 +1,25 @@
+.background {
+    background: rgb(2,2,20);
+    background: linear-gradient(137deg, rgba(2,2,20,1) 31%, rgba(5,47,96,1) 64%, rgba(119,85,183,1) 100%);
+    height: 100vh; /* Stellt sicher, dass der Background den gesamten Bildschirm ausfüllt */
+    width: 100vw; /* Stellt sicher, dass der Background den gesamten Bildschirm ausfüllt */
+    position: fixed; /* Stellt sicher, dass der Background beim Zoomen der Seite nicht verändert wird */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Stellt sicher, dass der Background hinter dem restlichen Inhalt liegt */
+  }
+  .backgroundImage {
+    z-index: 0;
+  }
+
+  .centered-container {
+    display: flex;
+    justify-content: flex-start; /* Left-align contents */
+    align-items: center; /* Center vertically */
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.citienames{
+  margin-top: 20000px;
+}
